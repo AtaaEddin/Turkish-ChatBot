@@ -2,7 +2,8 @@
 
 
 
-Query: sen güzel bir kızsın ==> [!alt text]<a href="https://imgflip.com/gif/2z3m1p"><img src="https://i.imgflip.com/2z3m1p.gif" title="made at imgflip.com"/></a>
+Query: sen güzel bir kızsın ==> 
+[!alt text]<a href="https://imgflip.com/gif/2z3m1p"><img src="https://i.imgflip.com/2z3m1p.gif" title="made at imgflip.com"/></a>
 
 we trained seq2seq model on Turkish twitter data to build a chatbot, and we wrapped our chatbot with human talking head, and above that we trained other model to detect trigger word as start point to chat and open conversation with the chatbot.  
 
@@ -20,19 +21,21 @@ In order to interacte with the chatbot first you have to wake it up.
 
 - **Trigger Word Detection**
 
-"Uyan Ay" ====>    [!alt text]<a href="https://imgflip.com/gif/2z3kt9"><img src="https://i.imgflip.com/2z3kt9.gif" title="made at imgflip.com"/></a>
+"Uyan Ay" ====>    
+[!alt text]<a href="https://imgflip.com/gif/2z3kt9"><img src="https://i.imgflip.com/2z3kt9.gif" title="made at imgflip.com"/></a>
 
-...Here is come the first part the trigger word part!
+        Here is come the first part the trigger word part!
 
-...we trained our bot to wake up whenever it hears 'uyan ay', it is similar to amazon Alex when it hears 'Alex' trigger word, it wakes up.
+		we trained our bot to wake up whenever it hears 'uyan ay', it is similar to amazon Alex when it hears 'Alex' trigger word, it wakes up.
 
 - **ChatBot**
 
-...our bot is task-specfic chatbot it has one task called general conversation, what it does is respones to any query text given to it (ex: question, jokes, ..) with other meaningful text hopefuly :), derived and similir to twitter responses.
+		our bot is task-specfic chatbot it has one task called general conversation, what it does is respones to any query text given to it (ex: question, jokes, ..) with other meaningful text hopefuly :), derived and similir to twitter responses.
 
-...Instead of writting to the chatbot we add the voice recognition api serves from google, so your speech will be converted automatically to text and fed to the chatbot.
+		Instead of writting to the chatbot we add the voice recognition api serves from google, so your speech will be converted automatically to text and fed to the chatbot.
 
-query: seni çok seviyorum. ==>  [!alt text]<a href="https://imgflip.com/gif/2z3kw2"><img src="https://i.imgflip.com/2z3kw2.gif" title="made at imgflip.com"/></a>
+query: seni çok seviyorum. ==>  
+[!alt text]<a href="https://imgflip.com/gif/2z3kw2"><img src="https://i.imgflip.com/2z3kw2.gif" title="made at imgflip.com"/></a>
 
 ## Instalation
 
