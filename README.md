@@ -4,9 +4,12 @@
 
 
 
-**Query: sen güzel bir kızsın.** 
 
-<a algin="center" href="https://imgflip.com/gif/2z3m1p"><img src="https://media.giphy.com/media/1r8YRUc7Y7BwoaCC42/giphy.gif" title="made at imgflip.com"/></a>
+<p align="center">
+<b>Query: sen güzel bir kızsın. </b><br>
+<b>ChatBot: sen daha güzelsin!!</b><br><br>
+<img width="600" src="https://media.giphy.com/media/1r8YRUc7Y7BwoaCC42/giphy.gif"/> 
+</p>
 
 we trained seq2seq model on Turkish twitter data to build a chatbot, and we wrapped our chatbot with human talking head, and above that we trained other model to detect trigger word as start point to chat and open conversation with the chatbot.  
 
@@ -39,8 +42,8 @@ In order to interacte with the chatbot first you have to wake it up.
 	Instead of writting to the chatbot we add the voice recognition api serves from google, so your speech will be converted automatically to text and fed to the chatbot.
 
 	***query: seni çok seviyorum.***
-	
-	<img src="https://media.giphy.com/media/7XrDb6fGsWoKy9DWrb/giphy.gif" title="made at imgflip.com"/></a>
+	***ChatBot: ben de seni çok seviyorum yanımızda olduğun için sonsuz teşekkürler.***
+	<img algin="center" src="https://media.giphy.com/media/7XrDb6fGsWoKy9DWrb/giphy.gif" title="made at imgflip.com"/></a>
 
 ## Instalation
 
