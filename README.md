@@ -1,10 +1,12 @@
 
+
 # Interactive ChatBot in Turkish
 
 
 
-**Query: sen güzel bir kızsın** 
-<a algin="center" href="https://imgflip.com/gif/2z3m1p"><img src="https://i.imgflip.com/2z3m1p.gif" title="made at imgflip.com"/></a>
+**Query: sen güzel bir kızsın.** 
+
+<a algin="center" href="https://imgflip.com/gif/2z3m1p"><img src="https://media.giphy.com/media/1r8YRUc7Y7BwoaCC42/giphy.gif" title="made at imgflip.com"/></a>
 
 we trained seq2seq model on Turkish twitter data to build a chatbot, and we wrapped our chatbot with human talking head, and above that we trained other model to detect trigger word as start point to chat and open conversation with the chatbot.  
 
@@ -22,7 +24,9 @@ In order to interacte with the chatbot first you have to wake it up.
 
 - **Trigger Word Detection**
 
-	**Uyan Ay** ===> <a algin="left" href="https://imgflip.com/gif/2z3kt9"><img src="https://i.imgflip.com/2z3kt9.gif" title="made at imgflip.com"/></a>
+	**Uyan Ay** ===> 
+	
+	<img src="https://media.giphy.com/media/TakZY1jvx5ThjAuk4m/giphy.gif"/></a>
 
 	Here is come the first part the trigger word part!
 
@@ -35,7 +39,8 @@ In order to interacte with the chatbot first you have to wake it up.
 	Instead of writting to the chatbot we add the voice recognition api serves from google, so your speech will be converted automatically to text and fed to the chatbot.
 
 	***query: seni çok seviyorum.***
-<a href="https://imgflip.com/gif/2z3kw2"><img src="https://i.imgflip.com/2z3kw2.gif" title="made at imgflip.com"/></a>
+	
+	<img src="https://media.giphy.com/media/7XrDb6fGsWoKy9DWrb/giphy.gif" title="made at imgflip.com"/></a>
 
 ## Instalation
 
