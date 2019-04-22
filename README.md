@@ -42,7 +42,9 @@ In order to interacte with the chatbot first you have to wake it up.
 	Instead of writting to the chatbot we add the voice recognition api serves from google, so your speech will be converted automatically to text and fed to the chatbot.
 
 	***query: seni çok seviyorum.***
+	
 	***ChatBot: ben de seni çok seviyorum yanımızda olduğun için sonsuz teşekkürler.***
+	
 	<img algin="center" src="https://media.giphy.com/media/7XrDb6fGsWoKy9DWrb/giphy.gif" title="made at imgflip.com"/></a>
 
 ## Instalation
