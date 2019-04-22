@@ -52,11 +52,11 @@ In order to interacte with the chatbot first you have to wake it up.
 - **ubuntu**
 
 	if you are on ubuntu you should run first:     
+	```sh
+	$ sudo apt install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0 ffmpeg libav-tools
 
-		sudo apt install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0 ffmpeg libav-tools
-
-		sudo apt-get install python3-tk 
-
+	$ sudo apt-get install python3-tk 
+	```
 	after that run this:
 
 		- Ubuntu python3:
@@ -80,3 +80,4 @@ In order to interacte with the chatbot first you have to wake it up.
 
 	Windows:
 		python my_robot.py
+
