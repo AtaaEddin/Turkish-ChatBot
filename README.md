@@ -21,7 +21,7 @@ we trained seq2seq model on Turkish twitter data to build a chatbot, and we wrap
 
 ## How it works
 
-This repository  contains to main parts, trigger word part (triggerWord folder) and chatbot part (chatbot folder)
+This repository  contains two main parts, trigger word part (triggerWord folder) and chatbot part (chatbot folder)
 
 In order to interacte with the chatbot first you have to wake it up.
 
