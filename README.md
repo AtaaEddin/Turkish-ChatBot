@@ -26,14 +26,15 @@ This repository  contains two main parts, trigger word part (triggerWord folder)
 
 - **Trigger Word Detection**
 
-Here is come the first part the trigger word part!
-In order to interacte with human interface and speak with it! you have to wake it up.
+
 
 	**Uyan Ay** ===> 
 	
 	<img src="https://media.giphy.com/media/TakZY1jvx5ThjAuk4m/giphy.gif"/></a>
-
 	
+	Here is come the first part the trigger word part!
+	In order to interacte with human interface and speak with it! you have to wake it up.	
+
 
 	we trained our bot to wake up whenever it hears 'uyan ay', it is similar to amazon Alex when it hears 'Alex' trigger word, it wakes up.
 
