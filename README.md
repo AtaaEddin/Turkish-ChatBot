@@ -11,7 +11,7 @@
 <img width="600" src="https://media.giphy.com/media/1r8YRUc7Y7BwoaCC42/giphy.gif"/> 
 </p>
 
-we trained seq2seq model on Turkish twitter data to build a chatbot, and we wrapped our chatbot with human talking head, and above that we trained other model to detect trigger word as start point to chat and open conversation with the chatbot.  
+we trained seq2seq model on Turkish twitter data to build a chatbot, and we built an interface(human head) to intract with the chatbot.
 
 ## Prerequisites
 - python3
@@ -23,23 +23,25 @@ we trained seq2seq model on Turkish twitter data to build a chatbot, and we wrap
 
 This repository  contains two main parts, trigger word part (triggerWord folder) and chatbot part (chatbot folder)
 
-In order to interacte with the chatbot first you have to wake it up.
 
 - **Trigger Word Detection**
+
+Here is come the first part the trigger word part!
+In order to interacte with human interface and speak with it! you have to wake it up.
 
 	**Uyan Ay** ===> 
 	
 	<img src="https://media.giphy.com/media/TakZY1jvx5ThjAuk4m/giphy.gif"/></a>
 
-	Here is come the first part the trigger word part!
+	
 
 	we trained our bot to wake up whenever it hears 'uyan ay', it is similar to amazon Alex when it hears 'Alex' trigger word, it wakes up.
 
 - **ChatBot**
 
-	our bot is task-specfic chatbot it has one task called general conversation, what it does is respones to any query text given to it (ex: question, jokes, ..) with other meaningful text hopefuly :), derived and similir to twitter responses.
+	our bot is task-specfic chatbot it has one task called general conversation, what it does is for any query text given to it (ex: question, jokes, ..) it repoenses with other text(answer,make statement), derived and similir to twitter responses.
 
-	Instead of writting to the chatbot we add the voice recognition api serves from google, so your speech will be converted automatically to text and fed to the chatbot.
+	first your voice will be converted to text using voice recognition api from google, then feeded to the text-to-text AI system finally the result will be printed to the human interface(as voice and text). 
 
 	***query: seni çok seviyorum.***
 	
@@ -67,7 +69,7 @@ In order to interacte with the chatbot first you have to wake it up.
 
 - **windows**
 
-	I didn't test it on windows but it should work fine.
+	I didn't test it on windows but it should be working fine.
 
 		run: pip install -r requirements.txt
 
