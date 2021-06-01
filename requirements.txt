@@ -1,7 +1,7 @@
 SpeechRecognition==3.6.3
 numpy==1.13.3
 matplotlib==3.0.2
-urllib3==1.22
+urllib3==1.26.5
 Keras==2.2.4
 scipy==1.2.1
 tensorflow==1.11.0
